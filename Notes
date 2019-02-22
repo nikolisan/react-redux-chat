@@ -1,0 +1,15 @@
+Τι dependencies έχω?
+2 κατηγορίες.
+1) deploy 2) dev
+=======================
+1) deploy
+---------
+- EXPRESS: Πακέτο/Βιβλιοθήκη για να γράφω πιο εύκολα server
+σε Node.Js. Διαχειρίζεται GET/POST/κτλ, τα routes (server-side),
+όλα τα responces, databases και γενικά ότι θέλω για έναν web-server.
+Είναι απαραίτητο? ΌΧΙ!!!! μπορώ να κάνω τα ίδια και με σκέτη τη node,
+αλλά πιο "δύσκολα".
+- SOCKET.IO: Βιβλιοθήκη wrapper γύρω από τα websockets. Με πολλά safe-clauses
+και fallbacks. Κάθε action στέλνει ένα ολόκληρο payload μαζί και όχι μόνο
+το socket-content.
+
